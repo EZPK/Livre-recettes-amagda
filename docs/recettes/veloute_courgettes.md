@@ -10,7 +10,7 @@ servings: 4
 image: "../../static/veloute-courgettes.jpg"
 ---
 
-![Velouté de courgettes](../../static/veloute-courgettes.jpg)
+![Velouté de courgettes](../static/veloute-courgettes.jpg)
 
 ## Ingrédients
 
