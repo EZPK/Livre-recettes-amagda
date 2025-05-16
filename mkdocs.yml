@@ -10,3 +10,8 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+  - attr_list      # nécessaire pour ajouter des classes HTML
+  - md_in_html     # autorise le HTML en-ligne dans Markdown
+plugins:
+  - search
+  - awesome-pages  # pour ordonner automatiquement les dossiers :contentReference[oaicite:12]{index=12}
