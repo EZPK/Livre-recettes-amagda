@@ -1,0 +1,8 @@
+site_name: "Cookbook Coopératif de l'Amagda"
+nav:
+  - Accueil: index.md
+theme:
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: true

@@ -1,0 +1,2 @@
+# Cookbook de l'Amagda
+
