@@ -23,13 +23,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          pip install -r requirements.txt
 
       - name: Build site to _build/
-        run: mkdocs build --site-dir _build   # génère dans ./_build :contentReference[oaicite:2]{index=2}
+        run: mkdocs build --site-dir _build   # génère dans ./_build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build                # publie ./_build sur gh-pages :contentReference[oaicite:3]{index=3}
+          publish_dir: ./_build                # publie ./_build sur gh-pages 
