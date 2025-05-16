@@ -3,8 +3,8 @@ nav:
   - Accueil: index.md
 theme:
   name: material
-docs_dir: docs         # dossier source des fichiers Markdown (par défaut 'docs') :contentReference[oaicite:0]{index=0}
-site_dir: _build       # dossier de sortie statique (remplace 'site') :contentReference[oaicite:1]{index=1}
+docs_dir: docs         # dossier source des fichiers Markdown (par défaut 'docs')
+site_dir: _build       # dossier de sortie statique (remplace 'site') 
 theme:
   name: material       # ou tout autre thème installé
 markdown_extensions:
@@ -14,4 +14,4 @@ markdown_extensions:
   - md_in_html     # autorise le HTML en-ligne dans Markdown
 plugins:
   - search
-  - awesome-pages  # pour ordonner automatiquement les dossiers :contentReference[oaicite:12]{index=12}
+  - awesome-pages  # pour ordonner automatiquement les dossiers 
