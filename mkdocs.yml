@@ -3,6 +3,10 @@ nav:
   - Accueil: index.md
 theme:
   name: material
+docs_dir: docs         # dossier source des fichiers Markdown (par défaut 'docs') :contentReference[oaicite:0]{index=0}
+site_dir: _build       # dossier de sortie statique (remplace 'site') :contentReference[oaicite:1]{index=1}
+theme:
+  name: material       # ou tout autre thème installé
 markdown_extensions:
   - toc:
       permalink: true
