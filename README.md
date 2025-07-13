@@ -9,3 +9,4 @@
 1. > `which python` -> `.venv/bin/python` 
 2. > `pip --version` et `pip list` qui doivent correspondre à l'environnement isolé
 
+azjelkajzlkejlkzae
