@@ -9,4 +9,7 @@
 
 - [![Velouté de courgettes](../../static/veloute-courgettes.jpg)](veloute-courgettes/)  
   **Velouté de courgettes**
+
+  - [![Vin de noix](../../static/vin-de-noix.jpg)](vin-de-noix/)  
+  **Vin de noix**
 </div>
